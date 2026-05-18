@@ -1,0 +1,21 @@
+Stock,Model,Model_Description,Test_MAPE_pct,Test_RMSE,Test_DirAcc_pct,Day1_Forecast_Rs,Day2_Forecast_Rs,Actual_Sell_Rs,Live_MAPE_pct,Live_Direction_Correct,PnL_Rs,Outcome
+RELIANCE,ARIMA,"ARIMA(0,1,0)",1.07,76.9,45.8,1345.00,1345.00,1322.53,1.70,No,−2676,Loser
+RELIANCE,Prophet,Facebook Prophet,9.08,551.8,54.2,1352.00,1355.00,1322.53,2.46,No,−2676,Loser
+RELIANCE,Ensemble,60pct ARIMA + 40pct Prophet,4.27,266.9,49.2,1347.60,1348.60,1322.53,1.97,No,−2676,Loser
+HDFCBANK,ARIMA,"ARIMA(1,1,2)",1.03,34.9,52.7,767.50,768.20,754.99,1.66,No,−1602,Loser
+HDFCBANK,Prophet,Facebook Prophet,2.50,85.2,45.8,769.00,771.00,754.99,2.12,No,−1602,Loser
+HDFCBANK,Ensemble,60pct ARIMA + 40pct Prophet,1.62,55.0,49.9,768.10,769.30,754.99,1.83,No,−1602,Loser
+TCS,ARIMA,"ARIMA(0,1,0)",0.97,44.9,48.9,2213.00,2213.00,2220.01,0.32,Yes,+253,Winner
+TCS,Prophet,Facebook Prophet,51.23,1993.1,47.3,3420.00,3440.00,2220.01,54.95,Yes,+253,Winner
+TCS,Ensemble,60pct ARIMA + 40pct Prophet,21.07,824.2,48.3,2695.80,2703.80,2220.01,21.70,Yes,+253,Winner
+SUNPHARMA,ARIMA,"ARIMA(0,1,0)",1.06,13.8,54.2,1839.12,1839.12,1848.08,0.48,Yes,+1662,Winner
+SUNPHARMA,Prophet,Facebook Prophet,3.94,48.7,45.8,1844.00,1846.00,1848.08,0.11,Yes,+1662,Winner
+SUNPHARMA,Ensemble,60pct ARIMA + 40pct Prophet,2.21,27.8,50.8,1841.10,1841.90,1848.08,0.33,Yes,+1662,Winner
+MARUTI,ARIMA,"ARIMA(0,1,0)",1.34,80.8,42.0,12930.00,12930.00,12994.57,0.50,Yes,+566,Winner
+MARUTI,Prophet,Facebook Prophet,13.81,725.5,55.7,13150.00,13200.00,12994.57,1.58,Yes,+566,Winner
+MARUTI,Ensemble,60pct ARIMA + 40pct Prophet,6.33,338.7,47.5,12998.00,13008.00,12994.57,0.10,Yes,+566,Winner
+NESTLEIND,ARIMA,"ARIMA(0,1,0)",0.76,165.4,52.7,1432.00,1432.00,1416.79,1.07,No,−2505,Loser
+NESTLEIND,Prophet,Facebook Prophet,17.13,3361.4,46.6,19200.00,19300.00,1416.79,1262.0,No,−2505,Loser
+NESTLEIND,Ensemble,60pct ARIMA + 40pct Prophet,7.31,1443.8,50.3,8453.00,8493.00,1416.79,496.8,No,−2505,Loser
+ICICIBANK,Momentum signal,No ARIMA built — live addition,Not modelled,Not modelled,Not modelled,1242.50,1242.50,1223.12,1.58,No,−336,Loser
+PORTFOLIO TOTAL,ARIMA (primary model used),Average across all stocks,1.04,69.6,47.7,Various per stock,Various per stock,Various per stock,1.04,3 of 7 = 43pct,−4638,Net Loss

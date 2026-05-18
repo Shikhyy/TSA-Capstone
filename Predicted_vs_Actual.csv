@@ -1,0 +1,9 @@
+Stock,Sector,Buy_Price_Rs,Shares,ARIMA_Pred_Day2_Rs,Actual_Close_Day2_Rs,Price_Error_Rs,MAPE_pct,Direction_Predicted,Direction_Actual,Direction_Correct,PnL_Rs,Return_pct,Outcome,Analysis
+SUNPHARMA,Pharma,1837.69,160,1839.12,1848.08,8.96,0.48,Up,Up,Yes,+1662.40,+0.565,Winner,Pharma momentum confirmed. Lowest live MAPE at 0.48pct. Best performing stock.
+TCS,IT,2210.96,28,2213.00,2220.01,7.01,0.32,Up,Up,Yes,+253.08,+0.409,Winner,IT sector recovery. Lowest MAPE of all at 0.32pct.
+MARUTI,Auto,12923.80,8,12930.00,12994.57,64.57,0.50,Up,Up,Yes,+565.36,+0.547,Winner,Auto sector gained. GARCH correctly sized this as smallest modelled position.
+RELIANCE,Energy/FMCG,1344.11,124,1345.00,1322.53,−22.47,1.70,Up,Down,No,−2675.92,−1.606,Loser,Energy sector broad selloff on 15 May. Macro event not captured by univariate ARIMA.
+NESTLEIND,FMCG,1431.44,171,1432.00,1416.79,−15.21,1.07,Up,Down,No,−2504.85,−1.020,Loser,Largest allocation (24.5pct) amplified underperformance. Technical selling despite strong Q4.
+HDFCBANK,Banking,766.77,136,767.50,754.99,−12.51,1.66,Up,Down,No,−1601.08,−1.536,Loser,Banking sector weakness continued from Day 1. ARIMA predicted flat but stock fell.
+ICICIBANK,Banking,1240.81,19,1242.50,1223.12,−19.38,1.58,Up,Down,No,−335.79,−1.420,Loser,Added without model backing. Entered near intraday high. Reversed on Day 2.
+PORTFOLIO TOTAL,6 sectors,998629.67,536,Weighted avg,993991.98,Various per stock,1.04,Mostly up,Mixed,3 of 7 = 43pct,−4637.69,−0.464,Net Loss,StockGro Overall Returns confirmed at −0.47pct. Matches calculated PnL within rounding.

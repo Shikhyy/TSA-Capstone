@@ -1,0 +1,9 @@
+Stock,Sector,Final_Weight_pct,Amount_Deployed_Rs,Shares_Bought,Entry_Price_Rs,Strategy_A_Weight_pct,Strategy_B_Weight_pct,GARCH_D1_Vol_pct,Annualised_Vol_pct,Trend_Direction,Trend_Strength,Allocation_Rationale
+SUNPHARMA,Pharma,29.4,294030.40,160,1837.69,0.3,14.7,1.49,23.7,Upward,0.97,Highest momentum in pharma. Strong upward STL trend. Strategy B weight from low vol.
+NESTLEIND,FMCG,24.5,244776.24,171,1431.44,0.3,20.9,1.05,16.6,Upward,0.90,Lowest volatility (1.05%) gives highest Strategy B weight (20.9%). Defensive FMCG anchor.
+RELIANCE,Energy/FMCG,16.7,166669.64,124,1344.11,0.3,15.7,1.40,22.0,Upward,0.99,Strongest trend strength (0.99). Conglomerate with FII exposure.
+HDFCBANK,Banking,10.4,104280.72,136,766.77,0.3,18.5,1.19,18.8,Upward,0.96,Second-lowest volatility. Stable banking uptrend across five years.
+MARUTI,Auto,10.4,103390.40,8,12923.80,0.3,13.6,1.62,25.7,Downward,0.97,Highest volatility gives lowest Strategy B weight. Auto sector diversifier.
+TCS,IT,6.2,61906.88,28,2210.96,0.3,16.5,1.33,20.8,Upward,0.93,IT bellwether. Combined weight lowered by weak Strategy A signal.
+ICICIBANK,Banking,2.4,23575.39,19,1240.81,9.5 (momentum),Not modelled,Not modelled,Approx 20.0,Upward,Not modelled,Live addition using remaining Rs. 24945. One-month momentum +9.47%. Near 52-week low of Rs. 1187. Q4 profit +9.28% YoY.
+PORTFOLIO TOTAL,6 sectors,100.0,998629.67,536,Weighted avg,Combined,Combined,Portfolio avg 1.35,Portfolio avg 21.6,6 of 7 upward,Portfolio avg 0.96,Rs. 1370.33 cash remaining (below minimum lot). 99.86% deployment rate.
